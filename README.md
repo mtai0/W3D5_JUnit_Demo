@@ -3,7 +3,7 @@ Assignment 1:
 	- Search Term: "run junit tests using mvn test command"
 	
 Extend Calculator
-Calculator
+- Calculator
 	- Addition
 	- Subtraction
 	- Multiplication
@@ -17,6 +17,7 @@ Calculator
 		@AfterEach (Optional)
 		
 Assignment 2:
+
 for addition -- write parameterized tests. (@ParameterizedTest)
 	- Ways to do it (pick 1):
 		- Separate method to supply input values (@MethodSource)
@@ -24,10 +25,11 @@ for addition -- write parameterized tests. (@ParameterizedTest)
 		- Using CSV file (@CsvFileSource)
 		
 Assignment 3:
+
 for division -- test should throw an exception when dividing by 0 -- ArithmaticException
 	- Use assertThrows
 
-1 test class for addition
-1 test class for subtratction and multiplication
-1 test class for division
+- 1 test class for addition
+- 1 test class for subtratction and multiplication
+- 1 test class for division
 Group these together in a Test Suite
